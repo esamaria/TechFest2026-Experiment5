@@ -1,0 +1,22 @@
+{
+  "name": "techfest-backend",
+  "version": "1.0.0",
+  "description": "TechFest 2026 Portal backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  }
+}
